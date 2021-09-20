@@ -40,7 +40,7 @@ const Navbar = () => {
       <span className='text-xl font-bold text-green-400 border-b-4 border-green-400 md:text-2xl'>
         {activeItem}
       </span>
-      <div className='flex space-x-5 text-lg'>
+      <div className='flex space-x-5 text-lg'> 
         
         <NavItem
           activeItem={activeItem}

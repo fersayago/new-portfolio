@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import { SiCodewars } from 'react-icons/si'
@@ -8,7 +9,7 @@ const Sidebar = () => {
   return (
     <div>
       <img 
-      src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.askmen.com%2F1080x540%2F2016%2F01%2F25-021526-facebook_profile_picture_affects_chances_of_getting_hired.jpg"
+      src="https://avatars.githubusercontent.com/u/51381395?v=4"
       alt="user avatar"
       className="w-32 h-32 mx-auto rounded-full"
       />
@@ -51,7 +52,7 @@ const Sidebar = () => {
       </div>
       {/* email button */}
       <button className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-400 to-blue-400 focus:outline-none'
-         onClick={()=>window.open('mailto:sayago.fernando@gmail.com')}
+        onClick={()=>window.open('mailto:sayago.fernando@gmail.com')}
       >
         Email me
       </button>
